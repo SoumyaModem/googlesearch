@@ -1,0 +1,42 @@
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+}
+.google {
+  height: 150px;
+  width: 450px;
+}
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: center;
+  padding: 5px;
+  background-color: #ffffff;
+  width: 300px;
+}
+
+.search-icon {
+  height: 40px;
+}
+.input {
+  border-width: 0;
+  border-style: solid;
+  height: 40px;
+}
+.search-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+}

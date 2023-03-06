@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #475569;
+  padding-left: 0px;
+}
+.image {
+  height: 30px;
+}
